@@ -197,17 +197,17 @@
 
 // Enable notifications
 // Allows to send notifications to the user
-#define NOTIFICATION_FEATURE
+// #define NOTIFICATION_FEATURE
 
 /* Notification message when online
  * The message that will be sent when the ESP is online
  */
-#define NOTIFICATION_ESP_ONLINE "Hi, %ESP_NAME% is now online at %ESP_IP%"
+// #define NOTIFICATION_ESP_ONLINE "Hi, %ESP_NAME% is now online at %ESP_IP%"
 
 /* Notification title message
  * The title of notification
  */
-#define ESP_NOTIFICATION_TITLE "ESP3D Notification"
+// #define ESP_NOTIFICATION_TITLE "ESP3D Notification"
 
 /************************************
  *
@@ -220,7 +220,7 @@
 /* Use captive portal
  * Enable captive portal in AP mode
  */
-#define CAPTIVE_PORTAL_FEATURE
+// #define CAPTIVE_PORTAL_FEATURE
 
 /* Use mDNS discovery
  * This method need `bonjour` protocol on windows, or `avahi` on linux
@@ -243,7 +243,7 @@
 /* Model name
  * Modele name of device
  */
-#define ESP_MODEL_NAME "ESP Board"
+#define ESP_MODEL_NAME "Ortur Obsidian"
 
 /* Model number
  * Modele number of device
@@ -425,7 +425,7 @@
 /* Enable Web Update
  * Update firmware using WebUI, need 4MB of flash
  */
-#define WEB_UPDATE_FEATURE
+// #define WEB_UPDATE_FEATURE
 
 /* Enable SD card Update
  * Update firmware and settings using file on SDCard
